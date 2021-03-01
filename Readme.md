@@ -42,4 +42,4 @@ yarn coverage
 docker-compose -f docker-compose-local.yml up -d
 ```
 
-###### URL Publica con AWS EC2 y Docker, despliegue productivo ejecutado con docker-compose.yml: http://18.224.171.213/api/v1/stats
+###### URL Publica con AWS EC2 y Docker, despliegue productivo ejecutado con docker-compose.yml: http://x-men.neme.xyz/api/v1/stats
