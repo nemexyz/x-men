@@ -1,6 +1,6 @@
 # Prueba X-Men
 
-La solución propuesta fue desarrollada con Node.js LTS, Express, PostgreSQL y Jest para TDD (Pruebas unitarias diseñadas inicialmente para posterior desarrollo). Se uso Clean Arquitecture, documentado y codificado con estandades ECMAScript.
+La solución propuesta fue desarrollada con Node.js LTS, Express, PostgreSQL y Jest para TDD (Pruebas unitarias diseñadas inicialmente para posterior desarrollo). Se uso Clean Arquitecture como base organizacional, esta documentado y codificado con estandades ECMAScript.
 
 ### Instrucciones de uso:
 
