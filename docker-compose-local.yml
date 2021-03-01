@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  postgresql:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      # - ./persistence/postgresql/data:/var/lib/postgresql/data
+      - ./config:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_PASSWORD: root
+  api:
+    restart: unless-stopped
+    volumes:
+      - ./logs/npm:/root/.npm/_logs
+    depends_on:
+      - postgresql
+    ports:
+      - 80:2020
+    build: .
